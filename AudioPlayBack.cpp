@@ -237,6 +237,7 @@ HRESULT MainWindow::ChangeInput(LPCTSTR Text) {
 
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int nCmdShow) {
 
+    /* コンソールがいらない場合ここをコメントアウトする */
     DebugConsole DC;
 
     MainWindow win;
