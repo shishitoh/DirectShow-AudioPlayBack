@@ -7,7 +7,7 @@
 
 constexpr char LOCALE[] = "ja-JP.UTF-8";
 
-struct DebugConsole {
+class DebugConsole {
 
     FILE *fp;
 
@@ -16,6 +16,8 @@ struct DebugConsole {
             AllocConsole();
         }
     }
+
+public:
 
     DebugConsole() {
         SetConsole();
